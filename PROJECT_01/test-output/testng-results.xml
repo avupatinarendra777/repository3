@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-10T13:59:54 IST" name="Default suite" finished-at="2025-05-10T14:00:14 IST" duration-ms="20102">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunnerTests@38e79ae3]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-05-10T13:59:54 IST" name="Default test" finished-at="2025-05-10T14:00:14 IST" duration-ms="20102">
+      <class name="runner.CucumberRunnerTests">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.CucumberRunnerTests@38e79ae3]" started-at="2025-05-10T13:59:54 IST" name="setUpClass" finished-at="2025-05-10T13:59:55 IST" duration-ms="1114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@22f31dec]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunnerTests@38e79ae3]" started-at="2025-05-10T13:59:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-05-10T14:00:14 IST" duration-ms="18857" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC01 Add skills Record"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create skills Record Automation in orange HRM"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.CucumberRunnerTests@38e79ae3]" started-at="2025-05-10T14:00:14 IST" name="tearDownClass" finished-at="2025-05-10T14:00:14 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.CucumberRunnerTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
